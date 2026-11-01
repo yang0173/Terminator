@@ -1,0 +1,9 @@
+{
+  "id": "b20fab3d-7db2-4a3a-9953-bf8cb5d36673",
+  "name": "teerm",
+  "modId": "teerm",
+  "packageName": "com.example.teerm",
+  "directory": "c:\\fgh\\teerm",
+  "minecraft": "1.21.11",
+  "loader": "fabric"
+}

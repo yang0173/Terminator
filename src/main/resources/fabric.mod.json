@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "teerm",
+  "version": "${version}",
+  "name": "teerm",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/teerm/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.teerm.ExampleMod"
+    ],
+    "client": [
+      "com.example.teerm.client.ExampleModClient"
+    ],
+    "mixinsquared": [
+      "com.example.teerm.TeermMixinCanceller"
+    ]
+  },
+  "mixins": [
+    "teerm.mixins.json",
+    {
+      "config": "teerm.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
