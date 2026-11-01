@@ -34,7 +34,7 @@
 
 ## 🔧 前置要求 / Requirements
 
-*   **Minecraft**: 1.21.11 (Fabric) / 1.21.1 (NeoForge)
+*   **Minecraft**: 1.21.11 (Fabric)
 *   **Fabric API** (若使用 Fabric 版 / for Fabric version)
 *   **MixinSquared** (用于拦截部分极端的底层保护，模组已内置，一般无需额外安装 / Bundled in the mod, no extra installation needed)
 
